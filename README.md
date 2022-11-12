@@ -1,4 +1,4 @@
 # CVWebsite
 
 
-![CV WEB](index.html)
+![CV WEB](https://samuel-qm.github.io/CVWebsite/)
