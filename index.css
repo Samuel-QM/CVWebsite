@@ -8,30 +8,47 @@ img[alt~="Samuel"]{
     width: 110px;
     margin: 0px 5px 2px 15px;
 }
-
+img[alt~="Youtube"]{ 
+    width: 50px;
+    margin: -15px 5px 2px 5px;
+}
+img[alt~="Phone"]{ 
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+}
+img[alt~="Controller"]{ 
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+}
+img[alt~="Keyboard"]{ 
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+}
+img[alt~="Website"]{ 
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+}
 header.sidebar{
+    float: left;
     background-color: darkblue;
     color: white;
     display: flex;
     flex-direction: column;
     border-right: solid 1px gray;
-    padding: 40px 30px 40px 40px;
-    position: fixed;
+    padding: 40px 30px;
+    position: absolute;
     left: 0;
-    height: 100%;
-    min-height: 100%;
     top: 0;
     width: 200px;
-    z-index: 1;
     overflow-y: scroll; 
-    height:400px;
+    height: 100%;
 }
 .main{
+
     hyphens: manual;
     position: relative;
-
     margin-top: 100px;
-    
+    height: 100%;
 }
 .Name{
     font-weight: bold;
@@ -41,9 +58,76 @@ header.sidebar{
 .Main-Info{
     display: flex;
 }
-.Experiencia-laboral{
-    display: flex;
-}
+
 .Projects{
     display: flex;
 }
+.MainHeader{
+    margin-top: 50px;
+    border-top: solid 2px darkblue;
+    border-bottom: solid 2px darkblue;
+    color: darkblue;
+}
+.Header{
+    margin-top: 100px;
+    background-color: #002c53;
+    width: 170px;
+    height: 50px;
+}
+.Info{
+    border-right: solid 1px gray;
+    border-top: solid 1px gray;
+    border-left: solid 1px gray;
+    border-bottom: solid 1px gray;
+}
+
+h3{
+    text-decoration: underline;
+}
+a{
+    color: white;
+}
+.Bar {
+    position: relative;
+  }
+  
+  .CommunicationBar::after {
+    content: "Medium-High";
+    position: relative;
+    float: right;
+    top:0;
+    right: 0;
+  }
+  .PSBar::after {
+    content: "Medium";
+    position: relative;
+    float: right;
+    top:0;
+    right: 0;
+  }
+  .CreativityBar::after {
+    content: "Low";
+    position: relative;
+    float: right;
+    top:0;
+    right: 0;
+  }
+
+
+  .LeadershipBar::after {
+    content: "Low-medium";
+    position: relative;
+    float: right;
+    top:0;
+    right: 0;
+  }
+.Certif{
+    list-style: none;
+}
+
+.Anys > li{
+    margin-top: 20px;
+}
+
+
+  
