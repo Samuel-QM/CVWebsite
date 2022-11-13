@@ -1,1 +1,49 @@
+body{
+    margin-left: 275px;
+}
+p{
+    font-family: "Lato"
+}
+img[alt~="Samuel"]{ 
+    width: 110px;
+    margin: 0px 5px 2px 15px;
+}
 
+header.sidebar{
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-right: solid 1px gray;
+    padding: 40px 30px 40px 40px;
+    position: fixed;
+    left: 0;
+    height: 100%;
+    min-height: 100%;
+    top: 0;
+    width: 200px;
+    z-index: 1;
+    overflow-y: scroll; 
+    height:400px;
+}
+.main{
+    hyphens: manual;
+    position: relative;
+
+    margin-top: 100px;
+    
+}
+.Name{
+    font-weight: bold;
+    font-size: 24px;
+    margin: -25px 5px 2px 10px;
+}
+.Main-Info{
+    display: flex;
+}
+.Experiencia-laboral{
+    display: flex;
+}
+.Projects{
+    display: flex;
+}
